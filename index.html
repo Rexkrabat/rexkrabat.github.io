@@ -1,22 +1,92 @@
 ---
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Github Pages Starter-Kit</h1>
-    <h2>UIkit</h2>
-    <p><a href="index-uikit.html">Example page</a> and <a href="https://getuikit.com/docs/introduction">documentation</a>.</p>
-    <h2>Bootstrap</h2>
-    <p><a href="index-bootstrap.html">Example page</a> and <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">documentation</a>.</p>
-    <h2>Foundation</h2>
-    <p><a href="index-foundation.html">Example page</a> and <a href="https://get.foundation/sites/docs/">documentation</a>.</p>
-    <h2>Bulma</h2>
-    <p><a href="index-bulma.html">An Example page</a> and <a href="https://bulma.io/documentation/">documentation</a>.</p>
-</body>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Hello World</title>
+        <style>
+            h1 { background-color: blue; }    /* all 'h1' tags */
+            .person { color: #ff0000; }
+            .sep { color: rgb(255, 255, 255); font-size: 5px;}            /* class person */
+            #copyright {font-size: 5px; }      /* id copyright */
+            #fix-top { position: fixed; top: 0px; left: 0px }
+            @media (max-width: 600px) {.wide-stuff {display: none;} }
+       </style>  
+        <!-- Everything between the <style> tags is called the CSS-->
+        <!--p.peter if i only want paragraphs of this type to be modified-->
+        <!--These things are additive-->
+        <!--id="XYZ" is one unique thing and 
+        is used to speed up webiste rendering-->
+    </head>
+    <body>
+        <div>
+            This is so much work
+            <hr/>
+            <!-- This is a comment -->
+            <!-- HTML tags are NOT case sensitive!-->
+        </div>
+        <hr/>
+        <div>
+        <img class="wide-stuff" src="test.png"/>
+        <hr/>
+        <h1>My shopping list:</h1>
+        <ul>
+            <li>Milk</li>
+            <li>Bread</li>
+            <li>Chocolate</li>
+            <li>More chocolate</li>
+        </ul>
+        <hr/>
+        </div>
+        <div>
+            <h1>This is a table:</h1>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>-X-</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John Lennon</td>
+                    <td>-X-</td>
+                  </tr>
+                  <tr>
+                    <td>Paul McCartney</td>
+                    <td>-X-</td>
+                  </tr>
+                  <tr>
+                    <td>George Harrison</td>
+                    <td>-X-</td>
+                  </tr>
+                  <tr>
+                    <td>Ringo Starr</td>
+                    <td>-X-</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div>
+            <p class="person"> 
+              This should be red. It was not red before because
+              i forgot to add the ""
+            </p>
+        </div>
+    </body>
+    <body>
+            <div>
+                test1
+            </div>
+            <p class="sep">BLABLABLA</p>
+            <div>
+                test2
+            </div>
+            <p class="sep">BLABLABLA</p>
+            <div>
+                test3
+            </div>
+            <p class="sep">BLABLABLA</p>
+    </body>
 </html>
